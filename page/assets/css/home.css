@@ -1,0 +1,45 @@
+/* Background for the hero section */
+.hero-section {
+    background: linear-gradient(135deg, #007bff, #6f42c1);
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section .btn {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+/* Features Section */
+.features-section {
+    background-color: #f8f9fa;
+}
+
+.feature-box {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+}
+
+.feature-box .icon {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+/* Navbar Customization */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
